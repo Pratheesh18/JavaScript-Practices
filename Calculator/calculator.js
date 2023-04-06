@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () =>{ // this ensures that javasc
         calculator.operator = nextOperator;
     }
     
-    function calculate(firstOperand , secondOperand,operator){
+    function calculate(firstOperand , secondOperand,operator){ // These are the functions are mainly focused on a calculator
         if(operator === "+"){
             return firstOperand + secondOperand;
         }else if(operator === '-'){
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () =>{ // this ensures that javasc
     }
     
     
-    function resetCalculator(){
+    function resetCalculator(){  // This is the AC function to reset the calculator
         calculator.displayValue = '0'
         calculator.firstOperand = null;
         calculator.waitingForSecondOperand = false;
@@ -84,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () =>{ // this ensures that javasc
             console.error(error);
         }
     }
-    
     
     updateDisplay();
     
@@ -118,9 +117,6 @@ document.addEventListener('DOMContentLoaded', () =>{ // this ensures that javasc
     
         updateDisplay();
     })
-    
-    
-
 })
 
 
