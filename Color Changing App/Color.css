@@ -4,7 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     width: 600px;
-    height: 500px;
+    height: 300px;
     margin: 50px auto 50px;
     text-align: center;
     display: flex;
@@ -14,13 +14,25 @@
 
 #btn{
     text-align: center;
-    width: 200px;
+    width: 100px;
     height: 50px;
     margin: 50px auto 50px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: black;
+    background: lightgreen;
     border-radius: 5px;
     border-style:none ;
     display: block;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:  #3e8e41;
+}
+
+h1{
+    text-align: center;
+}
+
+*{
+    background-color: beige;
 }
