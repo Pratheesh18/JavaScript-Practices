@@ -1,0 +1,30 @@
+.container{
+    max-width: 980px;
+    margin-inline: auto;
+    padding: 100px 15px;
+}
+
+.faq_header-title{
+    font-size: clamp(26px,5vw,40px);
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.faq_panel{
+    padding: 7px 21px;
+    margin-bottom: 24px;
+    border: 1px solid #777e91;
+    border-radius: 8px;
+}
+
+.faq_label{
+    padding-block: 7px;
+    color: #f4f5f6;
+    cursor: pointer;
+}
+
+.faq_panel-answer{
+    color: #777e91;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
