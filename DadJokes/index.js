@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () =>{
+
 const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn');
 
@@ -18,3 +20,4 @@ async function generateJoke(){
 
     jokeEl.innerHTML = data.joke
 }
+})
