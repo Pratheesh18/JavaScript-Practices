@@ -1,0 +1,10 @@
+body{
+    background-color: palegoldenrod;
+}
+
+@media screen and (min-width:480px) {
+    body{
+        background-color: aqua;
+    }
+    
+}
