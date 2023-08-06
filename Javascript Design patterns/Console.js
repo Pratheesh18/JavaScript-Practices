@@ -1,12 +1,8 @@
-console.log(1);
+console.log("Hello");
 
 setTimeout(() => {
-    console.log(2)
-},1000);
+    console.log("World")
+} , 0);
 
-setTimeout(() => {
-    console.log(3)
-},0);
 
-console.log(4);
-console.log(5);
+console.log("Hi");
